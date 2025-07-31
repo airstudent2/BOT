@@ -6,7 +6,7 @@ import threading
 
 # --- কনফিগারেশন ---
 # আপনার বটফাদারের API KEY এখানে দিন। এটি গোপন রাখবেন।
-API_KEY = '8154569063:AAGVRt_KNx8ps0gqY_Q5RjgZW8gX5NuJzvE'
+API_KEY = '8481301472:AAHMjqA8DcldWqzvUrlgtdD-K5ToTKW0hck'
 
 # --- ★★★ আসল সমাধান এখানে ★★★ ---
 # ফাইলের জন্য একটি নির্দিষ্ট এবং পূর্ণাঙ্গ পাথ তৈরি করা হলো
@@ -67,8 +67,8 @@ def handle_start(message):
     bot.send_message(message.chat.id,
         "Welcome to the *AiTricker Bot!*\n"
         "I can help you auto-reply in your Telegram group using keywords.\n\n"
-        "➤ Join our Telegram Group: https://t.me/officialAiTricker\n"
-        "➤ Subscribe to our YouTube Channel: https://youtube.com/@aitricker\n\n"
+        "➤ Join our Telegram Group: coming soon"
+        "➤ Subscribe to our YouTube Channel: coming soon"
         "*Tap 'Start Adding' below to add a keyword + link.*",
         parse_mode="Markdown",
         reply_markup=markup
